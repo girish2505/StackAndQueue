@@ -38,5 +38,20 @@ namespace StackAndQueue
                 temp = temp.next;
             }
         }
+        public void Dequeue()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is Empty");
+                return;
+            }
+            else
+            {
+
+                head = head.next;
+                return;
+            }
+
+        }
     }
 }
